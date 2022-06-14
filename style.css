@@ -20,6 +20,11 @@ a{
     color:black;
 }
 
+p::first-letter {
+    color: blue;
+    font-size: 100px;
+}
+
 p {
   display: none;
   background-color: red;
