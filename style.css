@@ -4,6 +4,11 @@ a:hover{
     animation: fadeIn 5s;
 }
 
+a:first-of-type{
+    font-size: 40px;
+    color: yellow;
+}
+
 a:active{
     font-size: 50px;
     color: green;
