@@ -1,0 +1,51 @@
+a:hover{
+    font-size: 30px;
+    color: blue;
+    animation: fadeIn 5s;
+}
+
+a:active{
+    font-size: 50px;
+    color: green;
+}
+
+a:focus{
+    font-size: 30px;
+    color: red;
+    animation: fadeOut 5s;
+}
+
+a{
+    font-size:30px;
+    color:black;
+}
+
+p {
+  display: none;
+  background-color: red;
+}
+
+div:hover p {
+  display: block;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
